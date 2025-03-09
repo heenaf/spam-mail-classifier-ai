@@ -6,7 +6,7 @@ from nltk.stem.porter import PorterStemmer
 import string
 import nltk
 nltk.download('punkt_tab')
-
+nltk.download('stopwords')
 ps=PorterStemmer()
 
 def transform_text(text):
